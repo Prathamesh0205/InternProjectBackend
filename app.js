@@ -16,7 +16,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler')
 //Routes
 const router = require('./routes/crypt')
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:3000'); // Replace with your frontend URL
+  res.header('Access-Control-Allow-Origin', 'https://frontend23.onrender.com'); // Replace with your frontend URL
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   res.header('Access-Control-Allow-Headers', 'Content-Type');
   next();
